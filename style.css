@@ -1,0 +1,109 @@
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+  }
+  
+body {
+    background-color: rgb(146, 182, 167);
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px ;
+  }
+  .tittle{
+    margin-top: -40px;
+    color: whitesmoke;
+    display: flex;
+    bottom: auto;
+  }
+  .contenedor-calculadora {
+    background-color: rgb(34, 43, 40);
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px;
+    display: flex;
+    border-radius: 20px ;
+  }
+  #v1{
+    margin-left:-250px ;
+    font-size: 15px;
+    color: white;
+    bottom: 240px;
+    position: absolute;
+    width: 370px;
+    height: 50px;
+  }
+
+  #valor1 {
+    background-color: rgb(146, 182, 167);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 290px;
+  }
+
+  #v2{
+    margin-left:-250px ;
+    font-size: 15px;
+    color: white;
+    bottom: 240px;
+    position: absolute;
+    width: 370px;
+    height: -100px;
+  }
+
+  #valor2 {
+    background-color: rgb(146, 182, 167);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 260px;
+  }
+
+  .botones {
+    font-size: 16px;
+    margin-top: -50px;
+  }
+  #sumar{
+    color: whitesmoke;
+    background-color: rgb(10, 58, 39);
+    border: 0;
+  }
+
+  #restar{
+    color: white;
+    background-color: rgb(10, 58, 39);
+    border: 0;
+  }
+
+  #multiplicar{
+    color: white;
+    background-color: rgb(10, 58, 39);
+
+    border: 0;
+  }
+
+  #dividir{
+    color: whitesmoke;
+    background-color: rgb(10, 58, 39);
+    border: 0;
+  }
+
+  #res{
+    color: white;
+    margin-left:-250px ;
+    font-size: 15px;
+    color: white;
+    bottom: 230px;
+    position: absolute;
+    width: 360px;
+    height: 0px;
+  }
+
+  #resultado{
+    background-color: rgb(167, 3, 3);
+  }
